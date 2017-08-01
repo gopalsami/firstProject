@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/toolbarColor"
+            app:navigationIcon="?attr/homeAsUpIndicator"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Geothermal"
+                android:layout_gravity="center"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="@color/buttonText"
+                android:id="@+id/toolbar_title"
+                />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:text="Courses offered"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/course1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Accredited Installer Workshops"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Certified GeoExchange Designer"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Certified Geothermal Inspector Workshops"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Certified Residential Geothermal Designer"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Certified Vertical Closed Loop Driller (CVCLD) Prep Workshop"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Train-the-Trainer Course"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Building Load Analysis and Pumping (BLA) course"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="DX Systems"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Open Loop Geothermal Systems"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/course10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Understanding Grouting Applications and Innovations"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:text="Resources"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/resource1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Accreditation Renewal Information"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/resource2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="IGSHPA Accredited Trainers"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/resource3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttonsbackground"
+                android:text="Training Events Calendar"
+                android:textColor="@color/buttonText"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Training is vital in any industry, especially in the ground source heat pump industry. Without training and accredited installers, ground source heat pumps have a greater chance of being installed incorrectly. Faulty installations can result in customer dissatisfaction and possible injury. IGSHPA training is the best way to learn accepted ground source heat pump standards and procedures and the best way to get ahead in the industry."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp"
+                 />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="IGSHPA training"
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Is essential for installers, contractors, and designers."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Started in 1988, making IGSHPA the leader in geothermal systems installation training."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Sets the industry standard for installation methods and training."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Has trained thousands of accredited installers."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Is the sole source for industry standard publications and guide books."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Has nominal costs compared to the benefits of accreditation and experience."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="10dp"
+                android:text="• Offers internationally recognized industry standard Installation, CGD, and Train-the- Trainer accreditation."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Explains the details, benefits, and troubleshooting of GSHPs."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="• Is taught by trained industry experts."
+                android:textColorHighlight="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

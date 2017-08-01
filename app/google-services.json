@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "113432880729",
+    "firebase_url": "https://igshpa-app.firebaseio.com",
+    "project_id": "igshpa-app",
+    "storage_bucket": "igshpa-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113432880729:android:e5a90f1fccfe6dbf",
+        "android_client_info": {
+          "package_name": "com.igshpa.srivallikanchibotla.android_igshpa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113432880729-k1dlihber0g2cq0k7g7akj1esg09ql7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFX4E48xzLvyeaXlBlft1hZa1qPQuTiUI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

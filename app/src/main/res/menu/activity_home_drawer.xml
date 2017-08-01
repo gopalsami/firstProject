@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/Home"
+            android:id="@+id/Home" />
+        <item
+            android:id="@+id/geothermal"
+            android:title="@string/Geothermal" />
+        <item
+            android:id="@+id/conference"
+            android:title="@string/Conference" />
+
+        <item android:title="Membership"
+            android:id="@+id/membership" />
+
+        <item
+            android:id="@+id/training"
+            android:title="@string/Training" />
+        <item
+            android:id="@+id/publication"
+            android:title="Publication" />
+
+        <item android:title="Find a Member"
+            android:id="@+id/businessdirectory" />
+
+        <item android:title="GeoOutlook"
+            android:id="@+id/geo" />
+
+        <item android:title="About Us"
+            android:id="@+id/about" />
+    </group>
+
+</menu>
